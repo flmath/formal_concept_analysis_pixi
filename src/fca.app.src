@@ -1,0 +1,15 @@
+{application, fca,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {fca_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [fca_server]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
